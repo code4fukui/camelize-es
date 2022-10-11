@@ -1,5 +1,5 @@
-var test = require('tape');
-var camelize = require('../');
+import { test } from "https://code4fukui.github.io/tape-es/tape.js";
+import { camelize } from "../camelize.js";
 
 var obj = {
     fee_fie_foe: 'fum',

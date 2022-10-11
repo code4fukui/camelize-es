@@ -1,4 +1,4 @@
-module.exports = function(obj) {
+export const camelize = function(obj) {
     if (typeof obj === 'string') return camelCase(obj);
     return walk(obj);
 };

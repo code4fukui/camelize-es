@@ -1,12 +1,10 @@
-# camelize
+# camelize-es
 
 recursively transform key strings to camel-case
 
-[![build status](https://secure.travis-ci.org/substack/camelize.png)](http://travis-ci.org/substack/camelize)
+forked [camelize 1.0.0](https://www.npmjs.com/package/camelize)
 
-[![browser support](https://ci.testling.com/substack/camelize.png)](http://ci.testling.com/substack/camelize)
-
-# example
+## example
 
 ``` js
 var camelize = require('camelize');
@@ -37,17 +35,17 @@ output:
 }
 ```
 
-# methods
+### methods
 
 ``` js
 var camelize = require('camelize')
 ```
 
-## camelize(obj)
+### camelize(obj)
 
 Convert the key strings in `obj` to camel-case recursively.
 
-# install
+## install
 
 With [npm](https://npmjs.org) do:
 
@@ -57,6 +55,12 @@ npm install camelize
 
 To use in the browser, use [browserify](http://browserify.org).
 
-# license
+## author
+
+- name:  James Halliday
+- email: mail@substack.net
+- url http://substack.net
+
+## license
 
 MIT
